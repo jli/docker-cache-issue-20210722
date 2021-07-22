@@ -11,7 +11,7 @@ docker build \
     --build-arg BUILDKIT_INLINE_CACHE=1 \
     .
 
-docker push docker push circularly/docker-cache-issue-20210722:cachebug
+docker push circularly/docker-cache-issue-20210722:cachebug
 
 # this causes a change in the local files to simulate a code-only change
 date > date_log.txt
